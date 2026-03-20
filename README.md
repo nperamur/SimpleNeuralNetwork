@@ -1,4 +1,5 @@
-### SimpleNeuralNetwork
+## SimpleNeuralNetwork
+
 ![Java](https://img.shields.io/badge/Java-21+-orange?logo=openjdk)
 
 This is a simple Neural Network I developed from scratch in java. As a test, I trained this Neural Network on historical Real Madrid matches and it is able to form a prediction
@@ -30,10 +31,10 @@ When I tested it, I found it scores around 92% on the 1 hidden layer with 16 Neu
 Thus, it can be seen that this model is able to work as intended: It can learn patterns and form accurate predictions based on those patterns.
 
 ### The Real Madrid Game Predictor
-As a real-world test for my Neural Network I decided to train this model on historical Real Madrid matches in order form an educated prediction on whether they will win the game, lose, or draw.
+As a real-world test for my Neural Network I decided to train this model on historical Real Madrid matches in order to form an educated prediction on whether they will win the game, lose, or draw.
 When I first tested it, the Neural Network was biased towards always predicting win, something that would optimize its accuracy due to the fact Madrid win a lot but does not satisfy my expectations of 
-it utilizing using various factors. To make up for this discrepancy, I adjusted my training so that it would be punished more than usual for getting a loss incorrect by training it more on losses and draws
-than the natural occurance in the original dataset. Although its accuracy technically did not improve due to the unpredictable nature of sports, I would consider this a win because I noticed how it developed patterns
+it utilizing various factors. To make up for this discrepancy, I adjusted my training so that it would be punished more than usual for getting a loss incorrect by training it more on losses and draws
+than the natural occurrence in the original dataset. Although its accuracy technically did not improve due to the unpredictable nature of sports, I would consider this a win because I noticed how it developed patterns
 like how Real Madrid tends to win in the UCL and at home more frequently than away, and how Madrid is more likely to beat easier opposition than tough teams, and how too little or too much rest can
 cause Madrid to play worse.
 
