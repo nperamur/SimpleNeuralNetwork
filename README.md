@@ -9,7 +9,7 @@ When constructing it, you can specify the number of hidden layers, the number of
 As inputs during training, the model takes in keys, numerical values that correspond to those keys, the expected value, and the learning rate.
 During inference, the model takes in the keys and values and will try to predict based on its training what is the most likely expected value.
 
-### Architecture:
+### Architecture
 This is a graph-based implementation of a multi-layer perceptron. 
 
 A multi-layer perceptron consists of multiple layers. We model these layers through Neurons and Connections. Each Neuron is initialized with a random bias and points to an ArrayList of connections.
