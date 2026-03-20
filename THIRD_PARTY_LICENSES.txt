@@ -1,0 +1,11 @@
+### MNIST
+Source:http://yann.lecun.com/exdb/mnist/
+
+The MNIST dataset was created by Yann LeCun, Corinna Cortes, and Christopher Burges.
+It is made available for research and educational use.
+
+
+## Real Madrid Dataset
+This project uses the Real Madrid results dataset from Kaggle:
+https://www.kaggle.com/datasets/khalidpark/realmadrid-football-results-data-set
+The dataset was compiled by Khalid Park and was sourced from official Real Madrid data and Transfermarkt.
