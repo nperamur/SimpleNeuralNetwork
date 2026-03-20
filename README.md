@@ -16,13 +16,13 @@ A multi-layer perceptron consists of multiple layers. We model these layers thro
 Each Connection has a randomly generated weight and pointers to the previous and next nodes. This forms a graph structure which is the foundation for our implementation of this Neural Network.
 
 **Prediction**:
-During Forward Propogation, it simply does a BFS graph traversal using a unique queue (so we do not visit the same node multiple times), doing a weighted sum of all the weights and biases of the previous layer.
+During Forward Propagation, it simply does a BFS graph traversal using a unique queue (so we do not visit the same node multiple times), doing a weighted sum of all the weights and biases of the previous layer.
 As for the activation function, this program uses sigmoid. This accumulation is then stored within the Neuron object itself. When we reach the output layer, whichever Neuron that has the highest output value wins 
 and the program returns the data contained in that output Neuron.
 
 **Training**:
-For training, we begin with our forward propogation except now we apply a softmax function to all the outputs. Then, for backpropogation, we traverse the graph by doing the BFS in reverse.
-At each node, we propogate our activation error using gradient descent. After that, we use the activation errors to update our weights and our biases by doing gradient descent as well. 
+For training, we begin with our forward propagation except now we apply a softmax function to all the outputs. Then, for backpropagation, we traverse the graph by doing the BFS in reverse.
+At each node, we propagate our activation error using gradient descent. After that, we use the activation errors to update our weights and our biases by doing gradient descent as well. 
 As a result, with iterations of training, our model learns patterns in the input data and its predictions get more and more refined.
 
 ### Testing the Model
