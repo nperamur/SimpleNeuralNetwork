@@ -1,4 +1,6 @@
 ### SimpleNeuralNetwork
+![Java](https://img.shields.io/badge/Java-21+-orange?logo=openjdk)
+
 This is a simple Neural Network I developed from scratch in java. As a test, I trained this Neural Network on historical Real Madrid matches and it is able to form a prediction
 on whether Real Madrid will win lose or draw based on many factors such as opposition, home/away, days of rest, and more.
 
