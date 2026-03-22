@@ -5,9 +5,9 @@
 This is a simple Neural Network I developed from scratch in java. As a test, I trained this Neural Network on historical Real Madrid matches and it is able to form a prediction
 on whether Real Madrid will win lose or draw based on many factors such as opposition, home/away, days of rest, and more.
 
-When constructing it, you can specify the number of hidden layers, the number of hidden nodes, and the possible outputs the model can return.
+When constructing it, you can specify the number of hidden layers, the number of hidden nodes per layer, and the possible outputs the model can return.
 As inputs during training, the model takes in keys, numerical values that correspond to those keys, the expected value, and the learning rate.
-During inference, the model takes in the keys and values and will try to predict based on its training what is the most likely expected value.
+During inference, the model takes in the keys and values and tries to predict the most likely output value based on its training data.
 
 ### Architecture
 This is a graph-based implementation of a multi-layer perceptron. 
